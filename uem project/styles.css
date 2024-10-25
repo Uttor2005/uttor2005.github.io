@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1) 1%, transparent 1%), 
+                      radial-gradient(circle, rgba(255, 255, 255, 0.1) 1%, transparent 1%);
+    background-size: 20px 20px; /* Size of dots */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Increased line spacing */
+}
+
+header {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #00ccff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px; /* Increased margin between navigation items */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Change hover color to yellow */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 30px 0; /* Increased vertical space between sections */
+    padding: 20px; /* Padding inside each section */
+    border: 1px solid #444;
+    border-radius: 5px;
+    transition: transform 0.3s, background-color 0.3s;
+    background-color: rgba(26, 26, 26, 0.8); /* Slightly transparent background for sections */
+}
+
+section:hover {
+    transform: scale(1.02);
+    background-color: rgba(34, 34, 34, 0.9); /* Darker on hover */
+}
+
+h1 {
+    font-size: 2.5em; /* Larger font size for main title */
+    margin-bottom: 10px;
+    color: #ffcc00; /* Main title color */
+}
+
+h2 {
+    font-size: 2em; /* Larger font size for section titles */
+    margin-top: 20px; /* Space above section titles */
+    margin-bottom: 10px; /* Space below section titles */
+    color: #00ccff; /* Change section title color to blue */
+}
+
+.education-item {
+    margin: 30px 0; /* Space between educational items */
+    padding: 15px; /* Padding inside each item */
+    border: 1px solid #444; /* Border for visual separation */
+    border-radius: 5px;
+    background-color: rgba(51, 51, 51, 0.6); /* Lighter background for each item */
+}
+
+.institution-name {
+    font-size: 1.8em; /* Larger font size for institution names */
+    color: #ffcc00; /* Change institution name color to yellow */
+    margin: 0; /* Remove default margin */
+}
+
+.degree {
+    font-size: 1.2em; /* Font size for degree */
+    font-style: italic; /* Italics for degree for emphasis */
+    margin: 5px 0; /* Space around the degree */
+}
+
+.percentage {
+    font-size: 1.2em; /* Font size for percentage */
+    margin: 5px 0; /* Space around the percentage */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(51, 51, 51, 0.8);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #00ccff; /* Top border for footer */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
